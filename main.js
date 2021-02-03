@@ -36,6 +36,7 @@ function temperature(cityName = "dhaka") {
 }
 temperature();
 
+
 // added eventListener for search button
 document.getElementById('searchButton').addEventListener('click', function () {
     // get user data and update input
